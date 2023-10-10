@@ -26,10 +26,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('app-mi-negocio');
   });
 
-  it('should render title', () => {
+  it('should render footer', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('app-mi-negocio app is running!');
+    expect(compiled.querySelector('footer p')?.textContent).toContain('Mi Negocio');
   });
 });
