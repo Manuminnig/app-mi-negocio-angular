@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16-alpine 
 
 #directorio de trabajo para la aplicación
 WORKDIR /usr/src/app
