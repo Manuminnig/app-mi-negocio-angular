@@ -15,8 +15,7 @@ services:
     image: 'manuminnig/nest'
     ports: 
       - '3000:3000'
-    volumes:
-      - '.:/usr/src/app'
+   
     environment:
       - DATABASE_NAME=postgres
       - DATABASE_HOST=postgres
