@@ -28,6 +28,6 @@ describe('ProductosComponent', () => {
     const fixture = TestBed.createComponent(ProductosComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h3')?.textContent).toContain('Productos');
+    expect(compiled.querySelector('h4')?.textContent).toContain('Productos');
   });
 });
