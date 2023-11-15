@@ -1,4 +1,7 @@
 # AppMiNegocio
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ed688c9d6ee84382b96c53a1a2845a1f)](https://app.codacy.com/gh/Manuminnig/app-mi-negocio-angular?utm_source=github.com&utm_medium=referral&utm_content=Manuminnig/app-mi-negocio-angular&utm_campaign=Badge_Grade)
+
 En el terminal, posicionarce en una carpeta donde vamos a instalar el proyecto, hacer "git clone https://github.com/Manuminnig/app-mi-negocio-angular.git".
 
 Luego correr el comando "Yarn install"
