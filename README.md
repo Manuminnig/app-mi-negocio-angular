@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/44dbb0ac460946138897d6fcb77e2462)](https://app.codacy.com/gh/Manuminnig/app-mi-negocio-angular/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 # AppMiNegocio
 En el terminal, posicionarce en una carpeta donde vamos a instalar el proyecto, hacer "git clone https://github.com/Manuminnig/app-mi-negocio-angular.git".
 
