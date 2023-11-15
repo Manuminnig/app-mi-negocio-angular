@@ -30,4 +30,4 @@ jobs:
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
     - name: "Trigger deploy on Netlify"
-      run: "curl -X POST -d {} ${{ secrets.NETLIFY_HOOK }}"
+      run: "curl -X POST -d {} ${{ secrets.DEPLOY_NETLIFY_HOOK }}"
