@@ -102,6 +102,11 @@
             },
             "development": {
               "browserTarget": "app-mi-negocio:build:development"
+            },
+             "k8s": {
+              "browserTarget": "app-mi-negocio:build:k8s"
+            
+
             }
           },
           "defaultConfiguration": "development"

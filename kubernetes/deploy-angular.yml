@@ -15,10 +15,8 @@ spec:
         app: angular
     spec:
       containers:
-      - name: api
-        image: manuminnig/angular:test-env
-        env:
-          - name: API_URL
-            value: HOLAMUNDO
+      - name: angular
+        image: manuminnig/angular:v0.0.4
+        imagePullPolicy: "Always"
         ports:
         - containerPort: 4200
